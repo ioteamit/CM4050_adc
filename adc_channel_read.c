@@ -28,7 +28,46 @@ to the terms of the associated Analog Devices License Agreement.
 #include <assert.h>
 #include <stdio.h>
 #include <drivers/general/adi_drivers_general.h>
+
+
+#ifdef ADI_DBM_TEST
+#include <drivers/gpio/adi_gpio.h>
+
+#define ACC_IO_PORT         ADI_GPIO_PORT0
+#define ACC_IO_PORT2        ADI_GPIO_PORT2
+#define ACC_RESET_PIN       ADI_GPIO_PIN_14
+#define ACC_TEMP_PIN        ADI_GPIO_PIN_7
+#define ACC_RANGE_PIN       ADI_GPIO_PIN_9
+#define ACC_ST1_PIN         ADI_GPIO_PIN_3
+#define ACC_ST2_PIN         ADI_GPIO_PIN_12
+
+#define MAGN_IO_PORT        ADI_GPIO_PORT0
+#define MAGN_ERROR_PIN      ADI_GPIO_PIN_4
+#define MAGN_OR_PIN         ADI_GPIO_PIN_5
+#define MAGN_PWR_ENA_PIN    ADI_GPIO_PIN_8
+
+#define DUST_IO_PORT        ADI_GPIO_PORT0
+#define DUST_RESET_PIN      ADI_GPIO_PIN_1
+
+
+#define ANL_IO_PORT         ADI_GPIO_PORT1
+#define ANL_SELECTION_PIN   ADI_GPIO_PIN_3
+#define ACC 0
+#define MGN 1
+
+#define TEMP_IO_PORT        ADI_GPIO_PORT1
+#define TEMP_ENA_PIN        ADI_GPIO_PIN_5
+
+#define MIC_IO_PORT         ADI_GPIO_PORT1
+#define MIC_ENA_PIN         ADI_GPIO_PIN_4
+#endif
+
 /*=============  D A T A  =============*/
+
+#ifdef ADI_DBM_TEST
+static uint32_t ports;
+    static uint8_t gpioMemory[ADI_GPIO_MEMORY_SIZE];
+#endif
 
 /* ADC Handle */
 ADI_ALIGNED_PRAGMA(4)
@@ -51,7 +90,6 @@ extern int32_t adi_initpinmux(void);
 static void usleep(uint32_t usec);
 static void WriteSamplesToFile (void);
 
-
 /*=============  C O D E  =============*/
 
 void ADC_SampleData(void)
@@ -69,7 +107,11 @@ void ADC_SampleData(void)
     DEBUG_RESULT("Failed to power up ADC", eResult, ADI_ADC_SUCCESS);
 
     /* Set ADC reference */
+#ifdef ADI_DBM_TEST
+    eResult = adi_adc_SetVrefSource (hDevice, ADI_ADC_VREF_SRC_EXT);
+#else
     eResult = adi_adc_SetVrefSource (hDevice, ADI_ADC_VREF_SRC_INT_2_50_V);
+#endif    
     DEBUG_RESULT("Failed to set ADC reference", eResult, ADI_ADC_SUCCESS);
 
     /* Enable ADC sub system */
@@ -100,7 +142,12 @@ void ADC_SampleData(void)
 
     /* Populate the buffer structure */
     Buffer.nBuffSize = sizeof(ADC_DataBuffer);
-    Buffer.nChannels = ADI_ADC_CHANNEL_0;
+#ifdef ADI_DBM_TEST
+    ports = ADI_ADC_CHANNEL_0 | ADI_ADC_CHANNEL_1 | ADI_ADC_CHANNEL_2 | ADI_ADC_CHANNEL_3 | ADI_ADC_CHANNEL_4 | ADI_ADC_CHANNEL_5 | ADI_ADC_CHANNEL_6 | ADI_ADC_CHANNEL_7 ;
+        Buffer.nChannels = ports;
+#else
+        Buffer.nChannels = ADI_ADC_CHANNEL_0;
+#endif    
     Buffer.nNumConversionPasses = ADC_NUM_SAMPLES;
     Buffer.pDataBuffer = ADC_DataBuffer;
 
@@ -124,9 +171,36 @@ void ADC_SampleData(void)
     eResult = adi_adc_Close (hDevice);
     DEBUG_RESULT("Failed to close ADC", eResult, ADI_ADC_SUCCESS);
 }
+#ifdef ADI_DBM_TEST
+static ADI_GPIO_RESULT digitalOut(const char port, const uint16_t pin, bool high) {
+        if (high) {
+            return adi_gpio_SetHigh((ADI_GPIO_PORT)port, (ADI_GPIO_DATA)pin);
+        } else {
+            return adi_gpio_SetLow((ADI_GPIO_PORT)port, (ADI_GPIO_DATA)pin);
+        }
+    }
 
+static void initGPIO(void) {
 
-
+  /* init the GPIO service */
+        if(ADI_GPIO_SUCCESS != adi_gpio_Init(gpioMemory, ADI_GPIO_MEMORY_SIZE))
+        {
+            DEBUG_MESSAGE("adi_gpio_Init failed\n");
+            return;
+        }
+        
+        adi_gpio_OutputEnable((ADI_GPIO_PORT)ACC_IO_PORT, (ADI_GPIO_DATA)ACC_RESET_PIN, true);
+        adi_gpio_OutputEnable((ADI_GPIO_PORT)ANL_IO_PORT, (ADI_GPIO_DATA)ANL_SELECTION_PIN, true);
+          
+        digitalOut((ADI_GPIO_PORT)ACC_IO_PORT, (ADI_GPIO_DATA)ACC_RESET_PIN, true);
+        
+        /**
+          MGN = 0.8
+          ACC = 2
+        **/
+        digitalOut((ADI_GPIO_PORT)ANL_IO_PORT, (ADI_GPIO_DATA)ANL_SELECTION_PIN, MGN);
+}
+#endif
 /*********************************************************************
 *
 *   Function:   main
@@ -152,7 +226,10 @@ int main (void)
 
     /* Configure the Pin Mux for ADC */
     adi_initpinmux();
-
+    
+#ifdef ADI_DBM_TEST
+    initGPIO();
+#endif
     /* Sample the ADC Channel 0 */
     ADC_SampleData();
 

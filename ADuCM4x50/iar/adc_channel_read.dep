@@ -2,271 +2,125 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>4163245914</fileChecksum>
+  <fileChecksum>1422766712</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_cdef.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\adi_processor.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_def.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\rtos_map\adi_rtos_map_noos.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_pwr_config.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr_def.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_wdt_config.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\platform.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc_def.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc_data.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\gpio\adi_gpio_def.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\dma\adi_dma.h</file>
-      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\wdt\adi_wdt.h</file>
-      <file>$PROJ_DIR$\..\PinMux.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\wdt\adi_wdt.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\dma\adi_dma.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr.c</file>
-      <file>$PROJ_DIR$\..\..\config\adi_adc_config.h</file>
-      <file>$PROJ_DIR$\..\..\adc_channel_read.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\common.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\IAR\startup_ADuCM4050.s</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\system_ADuCM4050.c</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050_typedefs.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adi_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\adi_dma.pbi</file>
       <file>$PROJ_DIR$\..\Readme_adc_channel_read.txt</file>
       <file>$PROJ_DIR$\Debug\Obj\adi_pwr.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\adi_wdt.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\adi_adc.o</file>
-      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\PinMux.o</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050_cdef.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\gpio\adi_gpio.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\general\adi_drivers_general.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\gpio\adi_gpio.c</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\system_ADuCM4050.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\adi_callback.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_typedefs.h</file>
-      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
-      <file>$TOOLKIT_DIR$\CMSIS\Include\cmsis_compiler.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_cycle_counting_config.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\adi_wdt.o</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050_device.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\pwr\adi_pwr.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\PinMux.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\common.o</file>
-      <file>$PROJ_DIR$\Debug\Obj\common.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\adi_dma.o</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\adi_cyclecount.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\adc_channel_read.o</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_device.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adi_pwr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PinMux.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc_channel_read.o</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Include\common.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adi_gpio.pbi</file>
       <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_cio_macros.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\adc_channel_read.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\adi_dma.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\adi_adc.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\startup_ADuCM4050.o</file>
-      <file>$PROJ_DIR$\..\..\adc_channel_read.h</file>
-      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
       <file>$PROJ_DIR$\Debug\Obj\system_ADuCM4050.o</file>
       <file>$PROJ_DIR$\Debug\Exe\adc_channel_read.out</file>
       <file>$PROJ_DIR$\Debug\Obj\system_ADuCM4050.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc_channel_read.pbd</file>
       <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Include\rtos_map\adi_rtos_map.h</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_global_config.h</file>
       <file>$TOOLKIT_DIR$\config\linker\AnalogDevices\ADuCM4050-flash.icf</file>
       <file>$PROJ_DIR$\Debug\List\adc_channel_read.map</file>
       <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\adc\adi_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\wdt\adi_wdt.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\dma\adi_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\gpio\adi_gpio_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc_data.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_wdt_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_pwr_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\rtos_map\adi_rtos_map_noos.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\adi_processor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_cdef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\config\adi_adc_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\gpio\adi_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\dma\adi_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\drivers\wdt\adi_wdt.c</file>
+      <file>$PROJ_DIR$\..\PinMux.c</file>
+      <file>$PROJ_DIR$\..\..\adc_channel_read.c</file>
+      <file>$PROJ_DIR$\..\..\adc_channel_read.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\IAR\startup_ADuCM4050.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Source\system_ADuCM4050.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\adi_adc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_cio_macros.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\ADuCM4050_typedefs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050_cdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050_typedefs.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\cmsis_compiler.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\sys\adi_ADuCM4050_device.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\system_ADuCM4050.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\adi_callback.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\adi_cyclecount.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\pwr\adi_pwr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\config\adi_cycle_counting_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\gpio\adi_gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Include\drivers\general\adi_drivers_general.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\adi_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\PinMux.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adi_wdt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc_channel_read.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adi_wdt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_ADuCM4050.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\adi_adc.pbi</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\..\PinMux.c</name>
+      <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>ICCARM</name>
-          <file> 40</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 62</file>
+          <name>ILINK</name>
+          <file> 11 18</file>
         </tool>
       </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 12 1 3 10 34 81 37 5 8 0 38 73 75 41</file>
-        </tool>
-      </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\wdt\adi_wdt.c</name>
+      <name>$PROJ_DIR$\Debug\Exe\adc_channel_read.out</name>
       <outputs>
         <tool>
-          <name>ICCARM</name>
-          <file> 59</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 35</file>
+          <name>ILINK</name>
+          <file> 18</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICCARM</name>
-          <file> 45 81 37 5 8 0 38 73 58 2 4 1 3 10 34 75 41 68 49 30 60 50 51 46 56 47 57 55 86 87 6 61 48 66 53 11 19</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 36</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 78</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 91 2 4 1 3 10 34 81 37 5 8 0 38 73 75 41 68 49 30 60 50 51 46 56 47 57 58 55 48 25 87 86 6 61 66 53 13 74 54 14 15 17</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\dma\adi_dma.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 65</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 77</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 2 4 1 3 10 34 81 37 5 8 0 38 73 75 41 68 49 30 60 50 51 46 56 47 57 58 55 17 48 86 87 6 61 66 53 43</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 33</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 69</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 45 81 37 5 8 0 38 73 58 48 34 9 7 87 86 6 57 61 2 4 1 3 10 75 41 68 49 30 60 50 51 46 56 47 55 66 53 42</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\adc_channel_read.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 67</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 76</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 80 91 2 4 1 3 10 34 81 37 5 8 0 38 73 75 41 68 49 30 60 50 51 46 56 47 57 58 55 48 25 87 86 6 61 66 53 52 39 74 54 45 42 70 13 43</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 1 30 48 81 45 47 61 86 75 46 42 52 4 3 8 37 87 34 91 70 13 43 74 2 25 68 50 41 10 0 55 39 58 80 5 38 73 49 60 51 56 57 6 66 53 54</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\common.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 63</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 64</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 70 34 81 37 5 8 0 38 73 52 58 39 45 57 74 54</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\IAR\startup_ADuCM4050.s</name>
-      <outputs>
-        <tool>
-          <name>AARM</name>
-          <file> 79</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>AARM</name>
-          <file> 86 87 6</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Source\system_ADuCM4050.c</name>
-      <outputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 82</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 84</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICCARM</name>
-          <file> 34 81 37 5 8 0 38 73 47 57 58 55 48 2 4 1 3 10 75 41 68 49 30 60 50 51 46 56 86 87 6 61 66 53</file>
+          <name>ILINK</name>
+          <file> 17 6 53 84 0 3 88 86 5 91 10 9 14 19 20</file>
         </tool>
       </inputs>
     </file>
@@ -275,47 +129,219 @@
       <outputs>
         <tool>
           <name>ICCARM</name>
-          <file> 31</file>
+          <file> 0</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 71</file>
+          <file> 8</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
-          <file> 57 81 37 5 8 0 38 73 58 74 54 13 42 2 4 1 3 10 34 75 41 68 49 30 60 50 51 46 56 47 55 48 86 87 6 61 66 53 16</file>
+          <file> 73 56 54 35 32 40 57 58 74 81 76 27 80 38 36 39 37 30 55 60 63 59 61 64 67 68 65 62 66 69 75 70 15 16 34 72 71 77 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 56 66 74 59 30 65 15 40 63 61 27 32 54 76 38 68 67 73 72 81 80 24 35 57 58 70 36 39 69 37 60 34 64 62 75 16 71 77</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\adc_channel_read.out</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\dma\adi_dma.c</name>
       <outputs>
         <tool>
-          <name>ILINK</name>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 36 39 37 30 55 56 54 35 32 40 57 58 60 63 59 61 64 67 68 65 62 66 69 73 74 75 23 70 15 16 34 72 71 77 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 37 60 82 36 70 39 69 54 56 75 72 55 23 15 59 68 63 30 32 64 62 34 38 35 57 58 61 67 65 66 73 74 16 71 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\adc\adi_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 38 36 39 37 30 55 56 54 35 32 40 57 58 60 63 59 61 64 67 68 65 62 66 69 73 74 75 70 41 16 15 34 72 71 77 27 81 76 26 25 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 30 71 41 35 77 56 81 36 38 25 39 69 60 58 55 76 21 27 72 15 26 70 59 68 63 57 54 61 67 65 66 73 74 16 34 75 32 40 64 62 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 56 54 35 32 40 57 58 74 70 55 31 33 16 15 34 73 72 38 36 39 37 30 60 63 59 61 64 67 68 65 62 66 69 75 71 77 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 54 57 63 15 72 67 73 77 31 80 35 58 59 30 61 55 65 66 70 33 74 16 38 68 75 83 32 40 34 71 36 39 69 37 60 64 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\wdt\adi_wdt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 56 54 35 32 40 57 58 74 38 36 39 37 30 55 60 63 59 61 64 67 68 65 62 66 69 73 75 15 16 34 72 70 71 77 29 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 54 67 73 32 68 29 56 55 72 77 38 40 59 63 30 61 65 66 83 15 22 57 35 58 36 39 69 37 60 34 70 75 64 62 16 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\PinMux.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 39 37 30 55 56 54 35 32 40 57 58 60 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 30 56 40 55 54 32 39 37 60 35 57 58 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\adc_channel_read.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
           <file> 89</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ILINK</name>
-          <file> 88 67 36 65 31 33 59 63 40 79 82 72 85 90 18</file>
+          <name>ICCARM</name>
+          <file> 49 21 38 36 39 37 30 55 56 54 35 32 40 57 58 60 63 59 61 64 67 68 65 62 66 69 73 74 75 70 41 16 15 34 72 71 77 78 79 81 76 83 7 27 82 80</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>[ROOT_NODE]</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\common.c</name>
       <outputs>
         <tool>
-          <name>ILINK</name>
-          <file> 83 89</file>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 55 56 54 35 32 40 57 58 78 74 79 83 73 81 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 78 58 73 56 35 55 83 81 57 79 7 32 40 74 76</file>
+        </tool>
+      </inputs>
     </file>
-    <forcedrebuild>
-      <name>[REBUILD_ALL]</name>
-    </forcedrebuild>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\IAR\startup_ADuCM4050.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 15 16 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\system_ADuCM4050.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 56 54 35 32 40 57 58 69 73 74 75 70 38 36 39 37 30 60 63 59 61 64 67 68 65 62 66 15 16 34 72 71 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 74 55 60 15 54 56 73 39 69 30 70 32 36 37 38 75 35 57 58 59 68 63 61 67 65 66 16 71 77 64 62 34 72</file>
+        </tool>
+      </inputs>
+    </file>
   </configuration>
   <configuration>
     <name>Release</name>
@@ -323,9 +349,6 @@
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>ILINK</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>[REBUILD_ALL]</name>
     </forcedrebuild>
   </configuration>
 </project>

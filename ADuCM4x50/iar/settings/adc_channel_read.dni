@@ -22,7 +22,7 @@ PrevWtdReset=Hardware
 [ArmDriver]
 EnableCache=1
 [DebugChecksum]
-Checksum=-524717938
+Checksum=1951682497
 [CodeCoverage]
 Enabled=_ 0
 [Exceptions]
@@ -130,6 +130,10 @@ ShowTimeLog=1
 SumEnabled=0
 ShowTimeSum=1
 SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
 [DriverProfiling]
 Enabled=0
 Mode=3
@@ -151,12 +155,6 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[Disassemble mode]
-mode=0
-[Breakpoints2]
-Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\adc_channel_read.c}.160.5" 0 0 1 "" 0 "" 0
-Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\adc_channel_read.c}.138.5" 0 0 1 "" 0 "" 0
-Count=2
 [Aliases]
 Count=0
 SuppressDialog=0

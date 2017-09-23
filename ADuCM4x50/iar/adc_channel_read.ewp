@@ -77,7 +77,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>7.60.2.11347</state>
+          <state>7.80.4.12487</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -188,6 +188,7 @@
           <state>ADI_DEBUG</state>
           <state>__ADUCM4050__</state>
           <state>__ADUCM4x50__</state>
+          <state>ADI_DBM_TEST</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
@@ -650,7 +651,7 @@
       <name>ILINK</name>
       <archiveVersion>0</archiveVersion>
       <data>
-        <version>17</version>
+        <version>18</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -922,7 +923,7 @@
         </option>
         <option>
           <name>CrcAlgorithm</name>
-          <version>0</version>
+          <version>1</version>
           <state>2</state>
         </option>
         <option>
@@ -937,6 +938,10 @@
         <option>
           <name>IlinkLogCallGraph</name>
           <state>0</state>
+        </option>
+        <option>
+          <name>IlinkIcfFile_AltDefault</name>
+          <state></state>
         </option>
       </data>
     </settings>
@@ -1615,7 +1620,7 @@
       <name>ILINK</name>
       <archiveVersion>0</archiveVersion>
       <data>
-        <version>17</version>
+        <version>18</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1887,7 +1892,7 @@
         </option>
         <option>
           <name>CrcAlgorithm</name>
-          <version>0</version>
+          <version>1</version>
           <state>2</state>
         </option>
         <option>
@@ -1902,6 +1907,10 @@
         <option>
           <name>IlinkLogCallGraph</name>
           <state>0</state>
+        </option>
+        <option>
+          <name>IlinkIcfFile_AltDefault</name>
+          <state></state>
         </option>
       </data>
     </settings>
@@ -1947,6 +1956,9 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\dma\adi_dma.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\gpio\adi_gpio.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Source\drivers\pwr\adi_pwr.c</name>
     </file>
     <file>
@@ -1957,6 +1969,9 @@
     <name>Source</name>
     <file>
       <name>$PROJ_DIR$\..\..\adc_channel_read.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\adc_channel_read.h</name>
     </file>
   </group>
   <group>
