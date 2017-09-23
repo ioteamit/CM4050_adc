@@ -1,0 +1,13 @@
+"C:\MyProgram\Hw\IAR\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"C:\MyProgram\Hw\IAR\Embedded Workbench 7.5\arm\bin\armJET.dll" 
+
+"C:\MyProgram\Hw\ADI\ADuCM4x50\ADuCM4x50_EZ_Kit\examples\adc\adc_channel_read\ADuCM4x50\iar\Debug\Exe\adc_channel_read.out" 
+
+--plugin "C:\MyProgram\Hw\IAR\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--flash_loader "C:\MyProgram\Hw\IAR\Embedded Workbench 7.5\arm\config\flashloader\AnalogDevices\FlashADuCM4050.board" 
+
+
+
+

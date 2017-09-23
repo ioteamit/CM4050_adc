@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>WATCH_1</Factory></Window><Window><Factory>StaticWatch</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1640</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1230</ColumnWidth1><ColumnWidth2>328</ColumnWidth2><ColumnWidth3>82</ColumnWidth3><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>WATCH_1</Factory></Window><Window><Factory>StaticWatch</Factory></Window></Windows></PreferedWindows></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>194</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>3500</item><item>20</item></col-widths></CallStack><WATCH_1><expressions><item>Buffer</item><item>ADC_DataBuffer</item><item>pAdcBuffer</item><item>AdcDevInfo</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>267</item><item>150</item><item>100</item><item>153</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window><Window><Factory>StaticWatch</Factory></Window></Windows></PreferedWindows></WATCH_1><StaticWatch><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows><expressions><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>285</item><item>150</item><item>100</item><item>225</item></col-widths></StaticWatch><Breakpoints><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths></Breakpoints></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4070-24574</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/adc_channel_read</ExpandedNode><ExpandedNode>&lt;ws&gt;/adc_channel_read/Driver</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Documentation</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Driver</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Source/midraSrc</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Source/midraSrc/hw</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Source/midraSrc/hw/aduHw</ExpandedNode><ExpandedNode>&lt;ws&gt;/adi-cbm-box/Source/midraSrc/hw/sensors</ExpandedNode></NodeDict></Session>
+          </Tab>
+        <Tab><Identity>TabID-23233-3957</Identity><TabName>Call Stack</TabName><Factory>CallStack</Factory></Tab><Tab>
+            <Identity>TabID-14818-24577</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab></Tabs>
+        
+      <SelectedTab>2</SelectedTab></Wnd0><Wnd3><Tabs><Tab><Identity>TabID-13071-9469</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-22251-9502</Identity><TabName>Live Watch</TabName><Factory>StaticWatch</Factory></Tab><Tab><Identity>TabID-5230-9616</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>2</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\rtc\Rtc_alarm\rtc_alarm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>361</YPos2><SelStart2>13814</SelStart2><SelEnd2>13814</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\rtc\Rtc_alarm\ADuCM4x50\Readme_rtc_alarm.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>440</SelStart2><SelEnd2>458</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\adc\adc_channel_read\ADuCM4x50\PinMux.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>12</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\adc\adc_channel_read\adc_channel_read.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>422</XPos2><YPos2>184</YPos2><SelStart2>6636</SelStart2><SelEnd2>6636</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Source\IAR\startup_ADuCM4050.s</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>196</YPos2><SelStart2>8729</SelStart2><SelEnd2>8729</SelEnd2></Tab><ActiveTab>4</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-003FBD48><key>iaridepm.enu1</key></Toolbar-003FBD48></Sizes></Row0><Row1><Sizes><Toolbar-12A2D2F8><key>debuggergui.enu1</key></Toolbar-12A2D2F8></Sizes></Row1><Row2><Sizes><Toolbar-1906A210><key>armjet.enu1</key></Toolbar-1906A210></Sizes></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>460</Bottom><Right>264</Right><x>-2</x><y>-2</y><xscreen>121</xscreen><yscreen>172</yscreen><sizeHorzCX>89696</sizeHorzCX><sizeHorzCY>195455</sizeHorzCY><sizeVertCX>197183</sizeVertCX><sizeVertCY>525000</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>327</Bottom><Right>1351</Right><x>-2</x><y>-2</y><xscreen>1353</xscreen><yscreen>329</yscreen><sizeHorzCX>1002965</sizeHorzCX><sizeHorzCY>373864</sizeHorzCY><sizeVertCX>104522</sizeVertCX><sizeVertCY>193182</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
